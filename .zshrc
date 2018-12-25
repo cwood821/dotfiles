@@ -101,3 +101,6 @@ alias lo="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 alias gp="git push"
 alias nah="git reset --hard && git clean -fd"
 alias ammend="git commit --amend"
+
+#
+alias todos="grep -A 1 -r -n --exclude-dir={node_modules,vendor,application/public} 'TODO' *"
